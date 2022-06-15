@@ -1,6 +1,6 @@
 let qhbjs = {
   hello: require("./hello"),
-  getDate: require("./getDate")
+  dateBilldate: require("./dateBilldate")
 };
 
 module.exports = {
