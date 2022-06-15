@@ -1,10 +1,10 @@
 /**
- * 获得当前日期或几天前的日期 例如：20220101
- * @private
- * @param {Number}
- * @returns {Number} Returns number 
-*/
-function getDate(days) {
+ * 描述
+ * @date 2022-06-15
+ * @param {Number} days
+ * @returns {Number}
+ */
+function getBilldate(days) {
   let date = new Date();
 	if (typeof(days) === 'number') {
 		date = new Date(date.getTime() - (days * 24) * 60 * 60 * 1000);
@@ -19,4 +19,4 @@ function getDate(days) {
 	return value;
 }
 
-module.exports = getDate;
+module.exports = getBilldate;
