@@ -9,6 +9,7 @@ let common = {
 
 // 数组
 let array = {
+  arrayFilterKey: require("./array/arrayFilterKey")
 };
 
 // 字符串
