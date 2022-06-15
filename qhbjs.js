@@ -5,7 +5,8 @@ let date = {
 
 // 通用
 let common = {
-  validateURL: require("./common/validateURL")
+  validateURL: require("./common/validateURL"),
+  isEmail: require("./common/isEmail")
 };
 
 // 数组
