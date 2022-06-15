@@ -5,6 +5,7 @@ let date = {
 
 // 通用
 let common = {
+  validateURL: require("./common/validateURL")
 };
 
 // 数组
@@ -15,7 +16,7 @@ let array = {
 
 // 字符串
 let string = {
-  toUpperCaseFun: require("./common/toUpperCaseFun")
+  toUpperCaseFun: require("./string/toUpperCaseFun")
 };
 
 // 本地储存storage方法
