@@ -1,0 +1,20 @@
+{
+  "name": "qhb-js",
+  "version": "1.0.3",
+  "description": "个人项目中使用的通用JS，方便个项目调用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/15239136251/qhb-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/15239136251/qhb-js/issues"
+  },
+  "homepage": "https://github.com/15239136251/qhb-js#readme"
+}
