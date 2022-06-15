@@ -7,7 +7,8 @@ let date = {
 let common = {
   validateURL: require("./common/validateURL"),
   isEmail: require("./common/isEmail"),
-  isMobile: require("./common/isMobile")
+  isMobile: require("./common/isMobile"),
+  isPhone: require("./common/isPhone"),
 };
 
 // 数组
@@ -29,9 +30,9 @@ let store = {
 // qhbjs
 const qhbjs = {
   hello: require("./hello"),
-  ...date,
-  ...common,
   ...array,
+  ...common,
+  ...date,
   ...string,
   ...store
 };
