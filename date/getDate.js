@@ -1,10 +1,10 @@
 /**
- * 描述
+ * 描述 获取日期，默认当前日期
  * @date 2022-06-15
  * @param {Number} days
  * @returns {Number}
  */
-function getBilldate(days) {
+function getDate(days) {
   let date = new Date();
 	if (typeof(days) === 'number') {
 		date = new Date(date.getTime() - (days * 24) * 60 * 60 * 1000);
@@ -19,4 +19,4 @@ function getBilldate(days) {
 	return value;
 }
 
-module.exports = getBilldate;
+module.exports = getDate;
