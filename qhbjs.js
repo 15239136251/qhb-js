@@ -1,6 +1,6 @@
 // 日期
 let date = {
-  getBilldate: require("./date/getBilldate")
+  getDate: require("./date/getDate")
 };
 
 // 通用
@@ -19,7 +19,8 @@ let array = {
 
 // 字符串
 let string = {
-  toUpperCaseFun: require("./string/toUpperCaseFun")
+  toUpperCaseFun: require("./string/toUpperCaseFun"),
+  getRandomString: require("./string/getRandomString")
 };
 
 // 本地储存storage方法
