@@ -29,7 +29,8 @@ let store = {
   getStore: require("./store/getStore"),
   setStore: require("./store/setStore"),
   removeStore: require("./store/removeStore"),
-  getAllStore: require("./store/getAllStore")
+  getAllStore: require("./store/getAllStore"),
+  clearStore: require("./store/clearStore")
 };
 
 // qhbjs
