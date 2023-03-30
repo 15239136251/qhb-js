@@ -26,7 +26,8 @@ let string = {
 
 // 本地储存storage方法
 let store = {
-  getStore: require("./store/getStore")
+  getStore: require("./store/getStore"),
+  setStore: require("./store/setStore")
 };
 
 // qhbjs
