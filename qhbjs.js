@@ -5,6 +5,7 @@ let date = {
 
 // 通用
 let common = {
+  validatenull: require("./common/validatenull"),
   validateURL: require("./common/validateURL"),
   isEmail: require("./common/isEmail"),
   isMobile: require("./common/isMobile"),
