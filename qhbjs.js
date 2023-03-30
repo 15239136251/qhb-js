@@ -28,7 +28,8 @@ let string = {
 let store = {
   getStore: require("./store/getStore"),
   setStore: require("./store/setStore"),
-  removeStore: require("./store/removeStore")
+  removeStore: require("./store/removeStore"),
+  getAllStore: require("./store/getAllStore")
 };
 
 // qhbjs
