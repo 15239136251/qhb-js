@@ -1,6 +1,7 @@
 // 日期
 let date = {
-  getDate: require("./date/getDate")
+  getDate: require("./date/getDate"),
+  dateFormat: require("./date/dateFormat")
 };
 
 // 通用
